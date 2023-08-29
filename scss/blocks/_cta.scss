@@ -1,0 +1,21 @@
+.cta {
+    padding: 180px 0;
+    background-image: url('./../../img/Rectangle1.jpg');
+}
+.cta__title {
+    margin-bottom: 15px;
+}
+.cta__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.cta__text {
+    color: $white;
+    line-height: 1.5;
+}
+.cta__form {
+   display: grid;
+   grid-template-columns: 1fr 1fr; 
+   gap: 35px 30px;
+}

@@ -1,0 +1,46 @@
+.info {
+    position: relative;
+    font-size: 16px;
+    padding-left: 35px;
+
+    &::before {
+        content: '';
+
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 21px;
+        height: 21px;
+
+        background-image: url('./../../icons/placeholder.svg');
+        background-repeat: no-repeat;
+    }
+
+    &--map, &--tel {
+        padding-left: 35px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 21px;
+            height: 21px;
+
+            background-repeat: no-repeat;
+        }
+    }
+
+    &--map::before, &--tel::before {
+
+    }
+
+    &--map::before {
+        background-image: url('./../../icons/placeholder.svg');
+    }
+
+    &--tel::before {
+        background-image: url('./../../icons/phone-call.svg');
+        
+    }
+}

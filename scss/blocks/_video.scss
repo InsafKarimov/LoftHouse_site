@@ -1,0 +1,41 @@
+.video {
+    text-align: center;
+    position: relative;
+
+    &::after {
+        content: 'IV';
+        opacity: 0.02;
+        font-size: 380px;
+        font-family: $font-accent;
+        line-height: 1;
+
+        position: absolute;
+        top: 0;
+        left: calc(50% + 450px);
+        transform: translate(-50%,0%);
+    }
+
+    
+}
+.video__link {
+    text-align: center;
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+       
+        
+    }
+
+    
+}
+.video__link:hover {
+    filter: saturate(1.9);
+}
+.video__img {
+
+}

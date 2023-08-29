@@ -1,0 +1,33 @@
+.benefits {
+    padding: 0;
+    padding-bottom: 80px;
+    position: relative;
+
+    &::after {
+        content: 'II';
+        opacity: 0.02;
+        font-size: 380px;
+        font-family: $font-accent;
+        line-height: 1;
+
+        position: absolute;
+        top: 0;
+        left: calc(50% + 500px);
+        transform: translate(-50%,0%);
+    }
+}
+.benefits__row {
+    display: flex;
+    column-gap: 70px;
+}
+.benefits__item {
+    text-align: center;
+}
+.benefits__item-img {
+    margin-bottom: 40px;
+}
+.benefits__item-text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.35;
+}
